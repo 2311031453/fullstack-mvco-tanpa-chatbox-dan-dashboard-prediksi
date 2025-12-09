@@ -1,4 +1,4 @@
-//constants.ts
+// constants.ts
 import { IconType } from 'react-icons';
 import { 
   FaHardHat, 
@@ -214,7 +214,7 @@ import {
   FaPhoneSquare,
   FaPhoneVolume,
   FaEnvelopeOpen,
-  FaPaperPlane,
+  FaPaperPlane, // Ditambahkan untuk ikon SEND
   FaInbox,
   FaArchive,
   FaReply,
@@ -484,7 +484,9 @@ export const ICONS = {
     SERVER: FaServer,
     NETWORK: FaNetworkWired,
     USERS: FaUsers,
-    WAREHOUSE: FaWarehouse
+    WAREHOUSE: FaWarehouse,
+    // AI Dashboard icons - Tambahkan ikon SEND di sini
+    SEND: FaPaperPlane
   }
 } as const;
 
